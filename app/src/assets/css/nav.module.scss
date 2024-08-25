@@ -1,0 +1,74 @@
+.nav {
+    .layer1 {
+        display: flex;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+        margin-top: 2vw;
+        padding-bottom: 1.5vw;
+        border-bottom: 2px solid #D4D4D4;
+
+        .phone_gr {
+            margin-left: 10vw;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            margin-left: 7vw;
+        }
+
+        .cta {
+            margin-left: auto;
+            margin-right: 10vw;
+            display: flex;
+            gap: 5vw;
+        }
+    }
+
+    .layer2 {
+        margin-top: 2vh;
+        display: flex;
+        align-items: center;
+
+        .cta {
+            display: flex;
+            margin-left: 18vw;
+            
+            a {
+                padding: 1vw;
+                font-size: 1.2vw;
+                color: black;
+            }
+        }
+
+        .search_box {
+            margin-left: auto;
+            margin-right: 13vw;
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 20vw;
+            height: 5vh;
+            
+            input {
+                padding-left: 10px;
+                height: 100%;
+                width: 100%;
+                border: none;
+                background-color: #DFDFDF;
+                border-radius: 50px 50px 50px 50px;
+            }
+
+            img {
+                right: 5px;
+                top: 0;
+                position: absolute;
+            }
+
+            img:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
